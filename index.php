@@ -22,7 +22,7 @@
         </div>
 
         <div class="welcome-actions animate__animated animate__bounceIn" style="animation-delay: 1.2s;">
-            <a href="Views/login/login.php" class="btn-welcome-login" style="text-decoration: none; display: inline-block;">INICIAR SESIÓN</a>
+            <a href="Views/Layout/login.php" class="btn-welcome-login" style="text-decoration: none; display: inline-block;">INICIAR SESIÓN</a>
         </div>
 
         <div class="welcome-footer animate__animated animate__fadeIn" style="animation-delay: 1.5s;">
