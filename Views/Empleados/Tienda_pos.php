@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="../../Assets/Css/pos.css">
+
 <div class="register">
   <div class="left">
     <div class="order-window">
@@ -5,9 +8,9 @@
         <tbody>
           <tr>
             <td>#</td>
-            <td>Item</td>
-            <td>Price</td>
-            <td>GL</td>
+            <td>Producto</td>
+            <td>Total</td>
+            <td>Subtotal</td>
           </tr>
           <tr>
             <td>1</td>
@@ -52,34 +55,24 @@
       <span>$38.00</span>
     </div>
     <div class="buttons">
+      <button class="btn-special op-plus"><i class="fas fa-plus"></i></button>
+      <button class="btn-special op-minus"><i class="fas fa-minus"></i></button>
+      <button class="btn-special op-reset"><i class="fas fa-times"></i> Reiniciar</button>
+      <button class="btn-special op-void"><i class="fas fa-ban"></i> Anular</button>
 
-      <button>
-        <i class="fas fa-print"></i>
-        Print
-      </button>
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button>
-        <i class="fas fa-ban"></i> 
-        Void
-      </button>
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button><i class="fa fa-times"></i>
-        QTY
-      </button>
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>
-        <i class="fas fa-sign-out-alt"></i>
-          Exit
-      </button>
-      <div></div>
-      <button>0</button>
-      <button>.00</button>
+      <button class="btn-num n1">1</button>
+      <button class="btn-num n2">2</button>
+      <button class="btn-num n3">3</button>
+      <button class="btn-num n4">4</button>
+      <button class="btn-num n5">5</button>
+      <button class="btn-num n6">6</button>
+      <button class="btn-num n7">7</button>
+      <button class="btn-num n8">8</button>
+      <button class="btn-num n9">9</button>
+      <button class="btn-num n0">0</button>
+      <button class="btn-num ndot">.00</button>
+      
+      <button class="btn-special op-equal"><i class="fas fa-equals"></i></button>
     </div>
   </div>
   <div class="right">
@@ -94,324 +87,75 @@
       </ul>
     </div>
     <div class="menu-items">
-      <ul>
-        <li>
-<!--           <i class="fas fa-beer fa-2x  fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">Water</span>
-          <span class="category">Beverages</span>
-        </li>
-        <li>
-<!--           <i class="fas fa-beer fa-2x  fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">Iced Tea</span>
-          <span class="category">Beverages</span>
-        </li>
-        <li>
-<!--           <i class="fas fa-beer fa-2x  fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">Soda</span>
-          <span class="category">Beverages</span>
-        </li>
-        <li>
-<!--           <i class="fas fa-beer fa-2x fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">Coffee</span>
-          <span class="category">Beverages</span>
-        </li>
-        <li>
-<!--           <i class="fas fa-utensils fa-2x fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">House Salad</span>
-          <span class="category">Soup/Salad</span>
-        </li>
-        <li>
-<!--           <i class="fas fa-utensils fa-2x fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">Side Salad</span>
-          <span class="category">Soup/Salad</span>
-        </li>
-        <li>
-<!--           <i class="fas fa-utensils fa-2x fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">Spaghetti</span>
-          <span class="category">Entree</span>
-        </li>
-        <li>
-<!--           <i class="fas fa-utensils fa-2x fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">Chicken Alfredo</span>
-          <span class="category">Entree</span>
-        </li>
-        <li>
-<!--           <i class="fas fa-utensils fa-2x fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">Hamburger</span>
-          <span class="category">Entree</span>
-        </li>
-        <li>
-<!--           <i class="fas fa-utensils fa-2x fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">Cheeseburger</span>
-          <span class="category">Entree</span>
-        </li>
-        <li>
-<!--           <i class="fas fa-utensils fa-2x fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">Mozzarella Sticks</span>
-          <span class="category">Appetizers</span>
-        </li>
-        <li>
-<!--           <i class="fas fa-utensils fa-2x fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">Nachos</span>
-          <span class="category">Appetizers</span>
-        </li>
-        <li>
-<!--           <i class="fas fa-utensils fa-2x fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">Chocolate Cake</span>
-          <span class="category">Desserts</span>
-        </li>
-        <li>
-<!--           <i class="fas fa-utensils fa-2x fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">Apple Pie</span>
-          <span class="category">Desserts</span>
-        </li>
-        <li>
-<!--           <i class="fas fa-utensils fa-2x fa-fw" data-fa-transform="up-3"></i> -->
-          <span class="item">Blueberry Cobbler</span>
-          <span class="category">Entree</span>
-        </li>
+        <ul>
+            <li class="product-card">
+                <div class="product-image-container">
+                    <img src="../../Assets/Images/products/spaghetti.jpg" alt="Spaghetti" class="product-img">
+                </div>
+                
+                <div class="product-info">
+                    <span class="item">Spaghetti Alfredo</span>
+                    <span class="category">Entree</span>
+                </div>
 
-      </ul>
+                <div class="product-price">
+                    $9.50
+                </div>
+
+                <div class="product-controls">
+                    <button class="btn-qty btn-minus"><i class="fas fa-minus"></i></button>
+                    <span class="qty-counter"> </span>
+                    <button class="btn-qty btn-plus"><i class="fas fa-plus"></i></button>
+                </div>
+            </li>
+
+            <li class="product-card">
+                <div class="product-image-container">
+                    <img src="../../Assets/Images/products/soda.jpg" alt="Soda" class="product-img">
+                </div>
+                
+                <div class="product-info">
+                    <span class="item">Soda (Coca-Cola)</span>
+                    <span class="category">Beverages</span>
+                </div>
+
+                <div class="product-price">
+                    $2.00
+                </div>
+
+                <div class="product-controls">
+                    <button class="btn-qty btn-minus"><i class="fas fa-minus"></i></button>
+                    <span class="qty-counter"></span>
+                    <button class="btn-qty btn-plus"><i class="fas fa-plus"></i></button>
+                </div>
+            </li>
+
+          </ul>
     </div>
+    
     <div class="payment-keys">
       <ul>
-        <li>
-          <i class="fas fa-money-bill-alt fa-2x fa-fw" data-fa-transform="up-2"></i> Cash
-        </li>
-        <li>
-          <i class="fas fa-check-square fa-2x fa-fw" data-fa-transform="up-2"></i> Check
-        </li>
-        <li>
-          <i class="fas fa-credit-card fa-2x fa-fw" data-fa-transform="up-2"></i> Credit / Debit
-        </li>
-        <li>
-          <i class="fas fa-gift fa-2x fa-fw" data-fa-transform="up-2"></i> Gift Card
-        </li>
-        <li>
-          <i class="fas fa-user fa-2x fa-fw" data-fa-transform="up-2"></i> Employee Charge
-        </li>
+          <li id="toggle-keyboard">
+              <i class="fas fa-keyboard fa-2x fa-fw" data-fa-transform="up-2"></i> Teclado
+          </li>
+          <li>
+            <i class="fas fa-money-bill-alt fa-2x fa-fw" data-fa-transform="up-2"></i> Efectivo
+          </li>
+          <li>
+            <i class="fas fa-credit-card fa-2x fa-fw" data-fa-transform="up-2"></i> Targeta
+          </li>
+          <li>
+            <i class="fas fa-tags fa-2x fa-fw" data-fa-transform="up-2"></i> Descuento
+          </li>
+          <li>
+            <i class="fas fa-user fa-2x fa-fw" data-fa-transform="up-2"></i> Empleado
+          </li>
+          <li>
+            <i class="fas fa-sign-out-alt fa-2x fa-fw" data-fa-transform="up-2"></i> Salir
+          </li>
       </ul>
     </div>
   </div>
 </div>
 
-
-
-
-
--------------------------------------------------------------------------------
-
-
-$primary: #2980b9;
-$primary-light: lighten($primary, 10%);
-$primary-dark: darken($primary, 7%);
-
-$secondary: #eeeeee;
-$secondary-light: lighten($secondary, 10%);
-$secondary-dark: darken($secondary, 10%);
-
-$font-family: "Roboto", sans-serif;
-
-@mixin center() {
-  align-items: center;
-  justify-content: center;
-}
-body {
-  color: #333;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-  background: $primary;
-  font-family: $font-family;
-}
-.register {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  height: 100vh;
-  width: 100%;
-  font-family: $font-family;
-  .left {
-    border-radius: 5px 5px 2px #333;
-    display: block;
-    position: relative;
-    z-index: 10;
-    .order-window {
-      background: $primary;
-      height: 35vh;
-      overflow-y: scroll;
-      border: 0;
-      padding: 0;
-      margin: 0;
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        tr {
-          display: grid;
-          width: 100%;
-          // grid-template-areas: "qty item item price";
-          grid-template-columns: 1fr 4fr 1fr 2fr;
-          overflow-x: hidden;
-          td {
-            border: 0;
-            padding: 10px;
-          }
-          td:nth-child(1) {
-          }
-          td:nth-child(2) {
-          }
-          td:nth-child(3) {
-            display: grid;
-            justify-content: end;
-          }
-          td:nth-child(4) {
-            display: grid;
-            justify-content: center;
-          }
-        }
-        tr:nth-child(even) {
-          background-color: $secondary-light;
-        }
-        tr:nth-child(odd) {
-          background-color: $secondary;
-        }
-        tr:first-child {
-          font-weight: bold;
-          background-color: $primary;
-          color: $secondary-light;
-          position: sticky;
-          top: 0px;
-        }
-      }
-    }
-    .order-total {
-      background: $secondary-light;
-      height: 10vh;
-      font-size: 6vh;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      padding: 0 10px;
-    }
-    .buttons {
-      display: grid;
-      height: 55vh;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
-      background: $secondary-dark;
-      button {
-        background-color: $secondary;
-        padding: 0;
-        margin: 0.5px;
-        border: 0;
-        border-radius: 2px;
-      }
-      :hover {
-        background-color: $secondary-dark;
-      }
-    }
-  }
-  .right {
-    background-color: $primary;
-    position: relative;
-    z-index: 5;
-    .categories {
-      display: flex;
-      ul {
-        flex: 1;
-        display: flex;
-        margin: 0;
-        padding: 0;
-        height: 10vh;
-        list-style-type: none;
-        li {
-          flex: 1;
-          display: flex;
-          @include center();
-          a {
-            background: $primary-dark;
-            flex: 1;
-            display: flex;
-            @include center();
-            height: 10vh;
-            color: white;
-            text-decoration: none;
-          }
-          :hover {
-            background: $primary;
-          }
-        }
-      }
-    }
-    .menu-items {
-      height: 80vh;
-      ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        height: 80vh;
-        overflow-y: scroll;
-        li {
-          height: 20vh;
-          background: $secondary;
-          margin: 5px;
-          display: flex;
-          flex-direction: column;
-          @include center();
-          border-radius: 2px;
-          i {
-            background: $primary-dark;
-          }
-          .item {
-            font-weight: bold;
-          }
-          .category {
-            font-style: oblique;
-          }
-        }
-        :hover {
-          background: $secondary-dark;
-        }
-      }
-    }
-    .payment-keys {
-      ul {
-        display: flex;
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-        height: 10vh;
-        background: $primary-dark;
-        color: $secondary-light;
-        li {
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          @include center();
-        }
-        :hover {
-          background: $primary;
-        }
-      }
-    }
-  }
-}
------------------------------------------------------------------------------------------------
-
-
-
-
-
-// Example Menu
-
-var menu = [
- {
-   item: "Spaghetti",
-   price: 9.50,
-   tax: true,
-   shortname: "Spag",
-   category: "entree",
-   glCode: "EN10",
- },
-]
+<script src="../../Assets/Js/pos.js"></script>
