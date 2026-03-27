@@ -87,50 +87,58 @@
       </ul>
     </div>
     <div class="menu-items">
-        <ul>
-            <li class="product-card">
-                <div class="product-image-container">
-                    <img src="../../Assets/Images/products/spaghetti.jpg" alt="Spaghetti" class="product-img">
-                </div>
-                
-                <div class="product-info">
-                    <span class="item">Spaghetti Alfredo</span>
-                    <span class="category">Entree</span>
-                </div>
+      <ul>
+          <li class="product-card">
+              <div class="product-stock">
+                  <span class="stock-label">STOCK</span>
+                  <span class="stock-value">25</span> </div>
 
-                <div class="product-price">
-                    $9.50
-                </div>
+              <div class="product-image-container">
+                  <img src="../../Assets/Images/products/spaghetti.jpg" alt="Spaghetti" class="product-img">
+              </div>
+              
+              <div class="product-info">
+                  <span class="item">Spaghetti Alfredo</span>
+                  <span class="category">Entree</span>
+              </div>
 
-                <div class="product-controls">
-                    <button class="btn-qty btn-minus"><i class="fas fa-minus"></i></button>
-                    <span class="qty-counter"> </span>
-                    <button class="btn-qty btn-plus"><i class="fas fa-plus"></i></button>
-                </div>
-            </li>
+              <div class="product-price">
+                  $9.50
+              </div>
 
-            <li class="product-card">
-                <div class="product-image-container">
-                    <img src="../../Assets/Images/products/soda.jpg" alt="Soda" class="product-img">
-                </div>
-                
-                <div class="product-info">
-                    <span class="item">Soda (Coca-Cola)</span>
-                    <span class="category">Beverages</span>
-                </div>
+              <div class="product-controls">
+                  <button class="btn-qty btn-minus"><i class="fas fa-minus"></i></button>
+                  <span class="qty-counter"></span>
+                  <button class="btn-qty btn-plus"><i class="fas fa-plus"></i></button>
+              </div>
+          </li>
 
-                <div class="product-price">
-                    $2.00
-                </div>
+          <li class="product-card">
+              <div class="product-stock">
+                  <span class="stock-label">STOCK</span>
+                  <span class="stock-value">120</span> </div>
 
-                <div class="product-controls">
-                    <button class="btn-qty btn-minus"><i class="fas fa-minus"></i></button>
-                    <span class="qty-counter"></span>
-                    <button class="btn-qty btn-plus"><i class="fas fa-plus"></i></button>
-                </div>
-            </li>
+              <div class="product-image-container">
+                  <img src="../../Assets/Images/products/soda.jpg" alt="Soda" class="product-img">
+              </div>
+              
+              <div class="product-info">
+                  <span class="item">Soda (Coca-Cola)</span>
+                  <span class="category">Beverages</span>
+              </div>
 
-          </ul>
+              <div class="product-price">
+                  $2.00
+              </div>
+
+              <div class="product-controls">
+                  <button class="btn-qty btn-minus"><i class="fas fa-minus"></i></button>
+                  <span class="qty-counter"></span>
+                  <button class="btn-qty btn-plus"><i class="fas fa-plus"></i></button>
+              </div>
+          </li>
+
+      </ul>
     </div>
     
     <div class="payment-keys">
