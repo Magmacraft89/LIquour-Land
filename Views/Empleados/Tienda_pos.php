@@ -78,12 +78,12 @@
   <div class="right">
     <div class="categories">
       <ul>
-        <li><a href="#">All Items</a></li>
-        <li><a href="#">Beverages</a></li>
-        <li><a href="#">Soup/Salad</a></li>
-        <li><a href="#">Appetizers</a></li>
-        <li><a href="#">Entrees</a></li>
-        <li><a href="#">Desserts</a></li>
+        <li><a href="#">Todos</a></li>
+        <li><a href="#">Vinos</a></li>
+        <li><a href="#">Tequila</a></li>
+        <li><a href="#">Cocteles</a></li>
+        <li><a href="#">Cervesas</a></li>
+        <li><a href="#">Licores</a></li>
       </ul>
     </div>
     <div class="menu-items">
