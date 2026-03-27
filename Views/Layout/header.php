@@ -5,7 +5,7 @@
     <nav class="nav-menu">
         <a href="../Admin/Dasboard.php" class="nav-item">DASHBOARD</a>
         <a href="../Empleados/Tienda_pos.php" class="nav-item">Punto de Venta</a>
-        <a href="../Admin/Catalogo.php" class="nav-item">CATALOGO</a>
+        <a href="../Admin/Inventario.php" class="nav-item">INVENTARIO</a>
         <a href="../Empleados/Empleados.php" class="nav-item">EMPLEADOS</a>
         <a href="../Admin/Reportes.php" class="nav-item">REPORTES</a>
         <a href="../../Include/Admin/compras.php" class="nav-item">COMPRAS</a>
