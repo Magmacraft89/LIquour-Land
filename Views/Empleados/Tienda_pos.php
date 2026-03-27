@@ -143,23 +143,38 @@
     
     <div class="payment-keys">
       <ul>
-          <li id="toggle-keyboard">
-              <i class="fas fa-keyboard fa-2x fa-fw" data-fa-transform="up-2"></i> Teclado
+          <li id="toggle-keyboard" style="cursor: pointer;">
+            <i class="fas fa-keyboard fa-2x fa-fw" data-fa-transform="up-2"></i> Teclado
           </li>
+
           <li>
-            <i class="fas fa-money-bill-alt fa-2x fa-fw" data-fa-transform="up-2"></i> Efectivo
+              <a href="ventas_efectivo.php" style="text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center;">
+                  <i class="fas fa-money-bill-alt fa-2x fa-fw" data-fa-transform="up-2"></i> Efectivo
+              </a>
           </li>
+
           <li>
-            <i class="fas fa-credit-card fa-2x fa-fw" data-fa-transform="up-2"></i> Targeta
+              <a href="ventas_tarjeta.php" style="text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center;">
+                  <i class="fas fa-credit-card fa-2x fa-fw" data-fa-transform="up-2"></i> Tarjeta
+              </a>
           </li>
+
           <li>
-            <i class="fas fa-tags fa-2x fa-fw" data-fa-transform="up-2"></i> Descuento
+              <a href="promociones.php" style="text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center;">
+                  <i class="fas fa-tags fa-2x fa-fw" data-fa-transform="up-2"></i> Descuento
+              </a>
           </li>
+
           <li>
-            <i class="fas fa-user fa-2x fa-fw" data-fa-transform="up-2"></i> Empleado
+              <a href="perfil_empleado.php" style="text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center;">
+                  <i class="fas fa-user fa-2x fa-fw" data-fa-transform="up-2"></i> Empleado
+              </a>
           </li>
+
           <li>
-            <i class="fas fa-sign-out-alt fa-2x fa-fw" data-fa-transform="up-2"></i> Salir
+              <a href="../Admin/Dasboard.php" style="text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center;">
+                  <i class="fas fa-sign-out-alt fa-2x fa-fw" data-fa-transform="up-2"></i> Salir
+              </a>
           </li>
       </ul>
     </div>
