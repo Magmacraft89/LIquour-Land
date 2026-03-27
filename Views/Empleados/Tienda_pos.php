@@ -94,7 +94,7 @@
                   <span class="stock-value">25</span> </div>
 
               <div class="product-image-container">
-                  <img src="../../Assets/Images/products/spaghetti.jpg" alt="Spaghetti" class="product-img">
+                  <img src="https://images.pexels.com/photos/2912108/pexels-photo-2912108.jpeg" alt="Spaghetti" class="product-img">
               </div>
               
               <div class="product-info">
@@ -119,7 +119,7 @@
                   <span class="stock-value">120</span> </div>
 
               <div class="product-image-container">
-                  <img src="../../Assets/Images/products/soda.jpg" alt="Soda" class="product-img">
+                  <img src="https://i.pinimg.com/736x/ea/ff/a2/eaffa23a48caa3aab3487219f25de1fe.jpg" alt="Soda" class="product-img">
               </div>
               
               <div class="product-info">
